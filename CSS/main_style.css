@@ -1,0 +1,118 @@
+/*
+Author: Daylan Jewell
+Project: Main Page/Universal CSS Styling
+*/
+
+/*FONT IMPORTS*/
+@font-face{
+    font-family: 'Hylia Serif Beta';
+    src: url(../font/HyliaSerifBeta-Regular.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hylia Serif Beta';
+    src: url('HyliaSerifBeta-Regular.woff') format('woff'),
+        url('HyliaSerifBeta-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*Main Elements*/
+body{
+    background-color:#f1c99c;
+    margin: 0;
+    padding: 0;
+    font-family: 'Hylia Serif Beta';
+}
+
+h1{
+    text-align: center;
+    color: #ffffff;
+}
+
+
+/*Header and Navigation Bar*/
+header{
+    background: #ca9354;
+    border-bottom: #ededed;
+}
+    /*Navigation Bar w/ website title*/
+    .nav{
+        position: relative;
+        padding: 15;
+        height: 100px;
+        background-color:#ca9354;
+        color: #ffffff;
+    }
+        .title{
+            color: #ffffff;
+            text-decoration: solid;
+            background-color: #000000d0;
+            border-radius: 15px;
+            border: solid 2px #ffffff;
+            display: inline-block;
+            padding: 15px;
+            position: absolute;
+            font-size: 30;
+            margin: 15px 0px 0px 15px;
+        }
+            .nav a:hover{
+                background-color: #000000;
+            }
+
+            .title sup{
+                font-size: 20;
+                font-weight: bold;
+            }
+
+            .title sub{
+                font-size: 15;
+            }
+
+    .nav ul{
+        position: absolute;
+        right: 0;
+        padding: 20px 100px 0px 0px;
+        font-size: 24;
+    }
+
+    .nav ul li{
+        display: inline-block
+    }
+
+    .nav ul li a{
+        color:#ffffff;
+        padding: 15px;
+        border: solid 2px #ffffff;
+        background-color: #000000d0;
+        border-radius: 15px;
+        text-decoration: solid;
+    }
+
+    .nav ul li a:hover{
+        background-color: #000000;
+    }
+
+        
+    /*Main Content of Home Page*/
+   .home_banner{
+        background: url(../images/calvary.png);
+        background-size: cover;
+        align-content: center;
+        justify-content: center;
+        padding: 0px 300px;
+    }
+
+        /*Welcome Header*/
+        .banner_header{
+            color: #ffffff;
+            border: solid 2px #ffffff;
+            border-radius: 15px;
+            background-color: #000000;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }

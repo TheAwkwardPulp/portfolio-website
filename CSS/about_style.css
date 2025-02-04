@@ -1,0 +1,32 @@
+/*
+Author: Daylan Jewell
+Project: About Page CSS Styling
+*/
+
+h1{
+    padding: 2px;
+    background-color: #000000;
+    border: solid 2px #ffffff;
+    border-radius: 15px;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+.about_content{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #eeeeee;
+    margin: 100px auto 0 auto;
+}
+    .article_container{
+        padding: 0px 400px 0px 400px;
+        font-family:'Trebuchet MS', 
+        'Lucida Sans Unicode', 'Lucida Grande', 
+        'Lucida Sans', Arial, sans-serif;
+    }
+        .about_content h3{
+            padding: 15px;
+            background-color: #000000d0;
+            border-radius: 15px;
+        }
