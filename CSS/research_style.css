@@ -1,0 +1,108 @@
+/*
+Author: Daylan Jewell
+Project: Biblical Research CSS Styling
+*/
+
+/**************
+-- MAIN PAGE --
+**************/
+.articles{
+    position: relative;
+    padding: 15;
+    margin: 15px 400px;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+}
+    .articles h2{
+        border: solid 2px #ffffff;
+        border-radius: 15px;
+        background-color: #000000;
+        padding: 15px;
+        display: block;
+    }
+
+    .articles ul{
+        position: absolute;
+        margin: 25px;
+        font-size: 24;
+        display: block;
+        text-align: center;
+    }
+        .articles ul li{
+            display: inline-block
+        }
+            .articles ul li a{
+                color:#ffffff;
+                padding: 15px;
+                background-color: #000000d0;
+                border-radius: 15px;
+                text-decoration: solid;
+            }
+                .articles ul li a:hover{
+                    background-color: #000000;
+                    cursor: pointer;
+                }
+
+
+/***************************
+-- World of Entertainment --
+***************************/
+.video{
+    text-align: center;
+    margin: 50px 300px;
+    background-image: url(../images/Thumbnail.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    height: 500px;
+    width: 1000px;
+}
+    .video div{
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+        .video div a{
+            color:#ffffff;
+            left: 230px;
+            top: 200px;
+            padding: 15px;
+            background-color: #000000d0;
+            border: solid 2px #ffffff;
+            border-radius: 15px;
+            text-decoration: solid;
+            position: absolute;
+        }
+            .video div a:hover{
+                background-color: #000000;
+                cursor: pointer;
+            }
+
+
+/*************
+-- Exegesis --
+*************/
+.note{
+    color: #ffffff;
+    padding: 15px;
+    background-color: #000000d0;
+    border-radius: 15px;
+    text-align: center;
+    margin: 50px 400px;
+}
+    .note p{
+        font-family:'Trebuchet MS', 
+        'Lucida Sans Unicode', 'Lucida Grande', 
+        'Lucida Sans', Arial, sans-serif;
+    }
+        .note p i{
+            color: #c00000;
+            font-weight: bold;
+        }
+
+object{
+    width: 1200px;
+    height: 1000px;
+    margin: 50px 200px;
+    border-radius: 15px;
+}

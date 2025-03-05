@@ -1,0 +1,124 @@
+/*
+Author: Daylan Jewell
+Project: BotW Map Page CSS Styling
+*/
+
+
+/*Guide Selection -- SCRAPPED*/
+/*.sections{
+    font-family: 'Hylia Serif Beta';
+    margin: 20px;
+    text-align: center;
+}
+    .sections div{
+        border: solid 2px #aaaaaa;
+        border-radius: 15px;
+        display: inline-block;
+        position: relative;
+        align-content: center;
+        text-align: center;
+        padding:20px;
+        margin: 10px;
+    }
+        .sections div a{
+            color: #ffffff;
+            border: solid 2px #ffffff;
+            border-radius: 15px;
+            background-color: #000000d0;
+            text-decoration: solid;
+            position: absolute bottom;
+            padding: 20px 50px;
+        }
+            .sections div a:hover{
+                background-color: #000000;
+            }
+
+        .early{
+            background-image: url(../images/Kakariko-Village-Breath-of-the-Wild.png);
+            background-size: cover;
+            height: 300px;
+            width: 410px;
+        }
+
+        .mid{
+            background-image: url(../images/mid_game.jpg);
+            background-size: cover;
+            height: 300px;
+            width: 410px;
+        }
+
+        .end{
+            background-image: url(../images/Hyrule-Castle-at-Sunset-Breath-of-the-Wild.jpg);
+            background-size: cover;
+            height: 300px;
+            width: 410px;
+        }*/
+
+.map{
+    text-align: center;
+    padding: 15px 0px;
+    color: #ffffff;
+}
+    .map div{
+        padding: 50px 200px;
+    }
+    
+        .map h1{
+            border: solid 2px #ffffff;
+            border-radius: 15px;
+            background-color: #000000;
+            text-decoration: solid;
+            padding: 15px;
+        }
+
+        .map h3{
+            background-color: #000000d0;
+            border-radius: 15px;
+            padding: 15px;
+            font-family:'Trebuchet MS', 
+            'Lucida Sans Unicode', 'Lucida Grande', 
+            'Lucida Sans', Arial, sans-serif;
+        }
+            .mm{
+                color: #dd0000;
+                font-family: 'Hylia Serif Beta';
+            }
+
+            .zd{
+                color: #00bbff;
+                text-decoration: solid;
+            }
+                .zd:hover{
+                    text-decoration: underline;
+                }
+        .map embed{
+        width: 1250px;
+        height: 700px;
+    }
+
+/*Universal Guide List -- SCRAPPED*/
+/*.guide_list{
+    background-image: url(../images/hyrule_background.jpg);
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+    .guide_list ul{
+        position: absolute;
+        padding: 20px;
+        font-size: 24;
+        align-items: center;
+        text-align: center;
+    }
+        .guide_list ul li{
+            display: block;
+            margin: 15px;
+        }
+            .guide_list ul li a{
+                color:#ffffff;
+                padding: 15px;
+                border: solid 2px #ffffff;
+                background-color: #000000d0;
+                border-radius: 15px;
+                text-decoration: solid;
+            }*/
